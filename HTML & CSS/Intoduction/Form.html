@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body><center>
+    <h1>Candidate Form</h1>
+    <form action="submit_form.html" method="GET" enctype="multipart/form-data">
+        <div>
+            <label for="firstName" class="term">First Name</label>
+            <input type="text" name="firstName" id="firstname" placeholder="Enter your first name" required>
+        </div>
+        <div>
+            <label for="lastname" class="term">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required>
+        </div>
+        <div>
+            <label for="email" class="term">Email Id</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email id" required>
+        </div>
+        <div>
+            <label for="date" class="term">D.O.B</label>
+            <input type="date" name="date" id="date" placeholder="Enter Birth Date" required>
+        </div>
+        <div>
+            <label for="gender" class="term">Gender</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male"><span class="gen">Male</span></label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female"><span class="gen">Female</span></label>
+        </div>
+        <div>
+            <label for="state" class="term">State</label>
+            <select name="state" id="state"required>
+                <option value="TamilNadu">TamilNadu</option>
+                <option value="AndhraPradesh">AndhraPradesh</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+        </div>
+        <div>
+            <label for="resume" class="term">Resume</label>
+            <input type="file" name="resume" id="resume">
+        </div>
+        <div>
+            <label for="feedback" class="term">Feedback</label>
+            <textarea name="feedback" id="feedback" cols="20" rows="4"></textarea>
+        </div>
+         <div>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">All entered information is correct</label>
+        </div>
+         <div>
+            <input type="checkbox" name="license" id="license" required>
+            <label for="license">I am agree to your license</label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <p>&copy 2023-2025</p>
+</center></body>
+</html>

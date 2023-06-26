@@ -1,0 +1,82 @@
+.sa{
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px yellow;
+}
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+    font-size: 1.56em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:rgb(214, 18, 18);
+    text-align: center;
+    text-decoration: solid underline;
+    letter-spacing: 0.2em;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:2;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 50px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: expanded;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: .25em;
+    word-spacing: .15em;
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+}
+h3::first-letter{
+    font-size: 2.25em;
+}
+img,iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 100%;
+        max-width: 100%;
+}
+.content{
+  margin: auto;
+  width: 60%;
+  border: 8px double red;
+  padding: 30px;
+  background-color: rgba(245,245,245,.76);
+}
+.top,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.list{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    line-height: 1.5em;
+    color: blue;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+}
+body{
+    background-image: url("cropped-1920-1080-1318025.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

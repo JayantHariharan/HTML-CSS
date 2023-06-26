@@ -1,0 +1,56 @@
+h1{
+    position:fixed;
+    left:1080px;
+    margin: 103px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    font-style: italic;
+    color:green;
+}
+.load{
+    margin-left: 600px;
+    border-radius: 50%;
+    position: relative;
+    top:400px;
+    left:300px;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+@keyframes circle {
+    0%{
+        left:300px;
+    }
+    20%{
+       left: 300px;
+       width:30px;
+       height:30px;
+       background-color: aqua;
+        }
+    50%{
+            left: 500px;
+            width:60px;
+            height:60px;
+            background-color: royalblue;
+    }
+    70%{
+        left:700px;
+        width:90px;
+        height:90px;
+        background-color: darkblue;
+    }
+    100%{
+        left:900px;
+        width:120px;
+        height:120px;
+        background-color: blueviolet;
+
+    }
+}
+body{
+    background-image: url("peakpx.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
